@@ -1,0 +1,6 @@
+# to run: CUDA_VISIBLE_DEVICES=2 with-proxy llamafactory-cli api ~/llm_finetune_projects/rlhf_recsys/rlhf_inference.yaml
+
+model_name_or_path: THUDM/glm-4-9b-chat
+adapter_name_or_path: /data/users/chandlerzuo/llm_finetune_projects/rlhf_recsys/saves/amazon_video_games_orpo
+template: glm4
+finetuning_type: lora
